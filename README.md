@@ -16,7 +16,8 @@ for the Deep Reinforcement Learning-enhanced Artificial Neural Network (DRL-ANN)
 - `.gitignore`
 
 **How to make this a real GitHub repo (recommended steps)**
-1. Create a GitHub repository on your account named `ClausDRL2025` (https://github.com/<YourGitHubUsername>/ClausDRL2025)
+1. Create a GitHub repository on your account named `ClausDRL2025` (https://github.com/farzamalaei-droid/ClausDRL2025
+)
 2. From the folder where you unzipped this project do:
    ```bash
    git init
@@ -25,16 +26,20 @@ for the Deep Reinforcement Learning-enhanced Artificial Neural Network (DRL-ANN)
    # create remote on GitHub via web UI or using GitHub CLI:
    gh repo create <YourGitHubUsername>/ClausDRL2025 --public --source=. --remote=origin --push
    # or (if you created repo via web UI) set remote and push:
-   git remote add origin https://github.com/<YourGitHubUsername>/ClausDRL2025.git
+   git remote add origin https://github.com/farzamalaei-droid/ClausDRL2025
+
    git branch -M main
    git push -u origin main
    ```
 3. Create a release (v1.0) and optionally archive on Zenodo for a DOI (recommended for citation).
 
 **Manuscript sentence to replace the placeholder URL**
-> Full details, including hyperparameters, training procedures, and source code, are available in Supplementary Material (Appendix E) and the GitHub repository (https://github.com/<YourGitHubUsername>/ClausDRL2025).
+> Full details, including hyperparameters, training procedures, and source code, are available in Supplementary Material (Appendix E) and the GitHub repository (https://github.com/farzamalaei-droid/ClausDRL2025
+).
 
 **Note (important)**
-I cannot create a GitHub repository on your behalf. The link `https://github.com/ClausDRL2025` (no username) is invalid as a repository URL.
-A valid repo URL must include a user/org, e.g. `https://github.com/YourGitHubUsername/ClausDRL2025`.
+I cannot create a GitHub repository on your behalf. The link `https://github.com/farzamalaei-droid/ClausDRL2025
+` (no username) is invalid as a repository URL.
+A valid repo URL must include a user/org, e.g. `https://github.com/farzamalaei-droid/ClausDRL2025
+`.
 Replace `<YourGitHubUsername>` with your actual GitHub username once you create the repo and push the files.
